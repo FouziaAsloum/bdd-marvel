@@ -33,14 +33,54 @@ Nom, prénom, email, mot de passe, rôle et liste des films préférés.
 
 Merci de me fournir ce jeu de requêtes pour tester la bdd :
 - les titres et dates de sortie des films du plus récent au plus ancien
+
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+```
+
 - les noms, prénoms et âges des acteurs ou actrices de plus de 30 ans dans l'ordre alphabétique
+
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+``` 
+
+
 - la liste des actrices ou acteurs principaux pour un film donné
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+```
+
 - la liste des films pour une actrice ou un acteur donné
+
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+```
+
 - ajouter un film
+
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+``` 
+
 - ajouter une actrice ou un acteur
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+```
+
 - modifier un film
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+```
+
 - supprimer une actrice ou un acteur
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+```
+
 - afficher les 3 derniers acteurs/actrices ajouté(e)s
+```sql 
+SELECT `films_titres_Films`, `films_sortie_Films` FROM Films ORDER BY `films_sortie_Films` DESC;
+```
 ​
 ### Contraintes
 
